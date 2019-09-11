@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blur_color">#61696767</color>
+    <color name="augInfoText">#000000</color>
+
+
+    <color name="main_bg">#0F0F0F</color>
+    <color name="select_sullivan_color">#D2C6AA</color>
+    <color name="Text_White">#FFFFFF</color>
+    <color name="toolbar_white">#C9C9C9</color>
+    <color name="toolbar_gray">#727272</color>
+    <color name="blurColor">#C6727272</color>
+    <color name="blackColor">#000000</color>
+</resources>

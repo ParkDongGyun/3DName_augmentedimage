@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_renderable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@color/augInfoText"
+        android:text="Hello"
+        android:textSize="100dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:ellipsize="end">
+    </TextView>
+</FrameLayout>

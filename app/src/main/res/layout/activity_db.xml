@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.ar.sceneform.samples.DBActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/statistic_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/cardview_dark_background"
+        app:title="@string/tbTitleTotal"
+        app:titleTextColor="@color/select_sullivan_color"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/statistic_toolbar">
+
+        <TextView
+            android:id="@+id/tvViewStatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="데이터가 없습니다."
+            android:textSize="27dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:visibility="invisible"/>
+
+    </FrameLayout>
+
+</RelativeLayout>
